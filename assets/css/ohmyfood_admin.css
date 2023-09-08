@@ -1,0 +1,363 @@
+.sidebar-icon {
+    color: #fde2bd;
+}
+
+.btn-table-action {
+    color: #ffe2bd;
+    background-color: #4b535b;
+    border-color: #4b535b;
+    box-shadow: none;
+}
+.sp-table-image{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.sp-table-item:hover {
+    background-color: #444c54;
+}
+
+.sp-btn-submit {
+    color: #ffe2bd;
+    background-color: #4b535b;
+}
+
+.sp-table-disable-row {
+    opacity: 0.5;
+}
+
+.sp-table-height {
+    min-height: 500px;
+}
+
+.card .overlay,
+.overlay-wrapper .overlay .sp-overlay-bg {
+    background-color: rgb(51 56 62 / 75%);
+}
+
+.page-item .page-link .sp-page-color {
+    color: #fde2bd;
+}
+
+.sp-table-item-center {
+    text-align: center;
+}
+
+.sp-icon {
+    color: #fde2bd;
+}
+
+.sp-tab-color {
+    background-color: #505a63;
+    border-color: #bbbbbb;
+    color: #bbbbbb;
+    border-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: #343a40;
+    border-bottom-width: 1px;
+    box-shadow: 1px 3px 3px 0px #343a40;
+}
+
+.sp-tab-color:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #505a63;
+}
+
+.sp-tab-color.active {
+    background: #656f78;
+    border-color: #454d55;
+    color: #ffffff;
+    border-bottom-width: 1px;
+    border-color: #fde2bd;
+}
+
+.sp-tab-section {
+    transition: opacity 0.5s linear;
+}
+
+.card-outline.sp-card-top-line {
+    border-top: 3px solid #fde2bd;
+}
+
+.sp-card-bg-header {
+    color: #fff;
+}
+
+.sp-content-relative {
+    position: relative;
+}
+
+.sp-store-link-container {
+    background-color: #343a40;
+    overflow: auto;
+}
+
+.sp-store-link {
+    color: #fff;
+}
+
+.sp-on-off {
+    background-color: #505a63;
+    color: #bbbbbb;
+}
+
+.sp-on-off:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #505a63;
+}
+
+.sp-on-off.active {
+    background: #656f78;
+    color: #fff;
+}
+
+.sp-btn-save {
+    font-size: 18px;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    border-radius: 25px;
+    padding: 0.5rem;
+    width: 50px;
+    height: 50px;
+    background: #e9e9e9;
+    color: #343a40;
+    border-width: 0px;
+    border-color: #fff;
+    box-shadow: 1px 2px 2px 2px #6c6c6c;
+}
+
+.sp-btn-save:hover {
+    background: #ffffff;
+}
+
+.sp-notice {
+    color: #c7c4c1;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.sp-logo-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.sp-link {
+    color: #8d8d8d;
+}
+
+.sp-address-list-item {
+    background-color: #505a63;
+    width: 100%;
+    margin-bottom: 1px;    
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.sp-address-list-item.active {
+    background-color: rgb(253 226 189);
+    color: #343a40;
+}
+
+.sp-address-list-item:hover {
+    background-color: #6d7b87;
+}
+
+.sp-address-item-text {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 0px;
+    flex: 1;    
+    cursor: pointer;
+}
+
+.sp-address-item-icon {
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.sp-store-photo-img{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+.sp-feature-item{
+    background: #454d55;
+    margin: 4px 10px 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sp-feature-item-text{
+    margin: 0px;
+    text-align: center;
+    padding: 8px;
+}
+
+.sp-feature-item.active{
+    background: #e9e9e9;
+    color: #343a40;
+}
+
+.sp-brand-item{
+    background: #454d55;
+    margin: 4px 10px 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sp-brand-item-text{
+    margin: 0px;
+    text-align: center;
+    padding: 8px;
+}
+
+.sp-brand-item.active{
+    background: #e9e9e9;
+    color: #343a40;
+}
+.sp-btn-overlay-delete{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 3px;
+    background: #4b535b59;
+}
+
+.sp-store-image-container{
+    position: relative;
+}
+.sp-brand-tags-container{
+    background: #616c77;
+    margin: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: row;
+    min-height: 52px;
+    display: block;
+}
+.sp-brand-tags-input{
+    margin-top: 10px;
+    display: flex;    
+    flex-wrap: wrap;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px;
+    min-height: 42px;
+}
+.sp-brand-tag-selected{
+    background-color: #505a63;
+    margin-right: 5px;
+    margin-bottom: 1px;    
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.sp-type-brand{
+    margin: 0px;
+    padding: 5px 10px 5px 10px;
+    color: #c7c4c1;
+    font-size: 12px;
+}
+.dark-mode .sp-validate-btn{
+    background: #fde2bd;
+    color: #343a40;
+    border-color: #fde2bd;
+}
+
+.dark-mode .sp-validate-btn:hover{
+    color: #343a40;
+    background-color: #ffedd5;
+    border-color: #ffedd5;
+}
+.sp-validate-form{
+    margin-top: 10px;
+    /* display: none; */
+}
+.dark-mode .form-control.sp-validate-text{
+    background: #463940;
+    border-color: #463940;
+    text-align: center;
+}
+
+.dark-mode .sp-reject-btn{
+    background: #ff3f6d;
+    border-color: #ff3f6d;
+    color: #fff;
+}
+
+.dark-mode .sp-reject-btn:hover{
+    background: #fc4973;
+    border-color: #fc4973;
+    color: #fff;
+}
+.dark-mode .sp-accept-btn{
+    background: #00c5ac;
+    border-color: #00c5ac;
+    color: #fff;
+}
+.dark-mode .sp-accept-btn:hover{
+    background: #01ddc0;
+    border-color: #01ddc0;
+    color: #fff;
+}
+
+.sp-brand-item-close-icon {
+    cursor: pointer;
+    line-height: 20px;
+    margin-right: 10px;
+}
+.sp-news-thumbnail {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+.sp-news-found-tags {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    background: #292e32;
+    z-index: 1;
+    border-width: 1px;
+    border-color: #6c757d;
+    border-top: none;
+    display: none;
+}
+.sp-news-found-tag-item {
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #454d55;
+    padding: 4px 8px 4px 8px;
+}
+.sp-news-found-tag-item:hover {    
+    background: #545e69;
+}
+
+.sp-save-brands{
+    text-align: center;
+    display: none;
+}
+.sp-news-tags-container{
+    display: flex;
+}
+.tree-main-item{
+    color: #fff;
+}
+.tree-main-small-item{
+    color: #fff;
+}
+
+.tree-main-featured{
+    color: #fce607;;
+}
